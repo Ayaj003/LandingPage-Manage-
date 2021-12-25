@@ -108,7 +108,6 @@ text-decoration: none;
 #firstPart{
 font-size:30px;
 margin-top: 40px;
-padding-left: 10%;
 width: 30%;
 }
 
@@ -118,14 +117,18 @@ h1{
 }
 
 #firstPart p{
+    
     font-size:18px;
     font-family: 'Be Vietnam';
     color: #9197ac;
+    padding-top: 30px;
+    line-height: 30px;
+    padding-bottom: 30px;
 }
 
 #secPart{
     /*تعديل padding 100-> 120 &width:38*/
-
+    padding-right: 5%;
     padding-top: 120px;
     width:38%;
    /* padding-right: 80px;*/
@@ -325,9 +328,10 @@ p{
 }
 
 #firstFooter h1 {
-    line-height: 40px;
+    line-height: 45px;
     padding-top: 20px;
     position: relative;
+    font-size: 45px;
 }
 #firstPart3{
     width: 70%;
@@ -411,10 +415,7 @@ flex-direction: column;
     color: #ee6339;      
     }
     
-#firstPart3 h1{
-    font-size: 45px;
-    line-height:50px ;
-    }
+
 label{
     background-color: #ffffff;
     padding: 10px 25px;
@@ -425,7 +426,7 @@ label{
 
 #secPart4{
     padding-top:90px;
-    padding-left: 170px;
+    padding-left: 230px;
 }
 #copyright{
 color: #7b716b;
@@ -443,12 +444,15 @@ padding-left: 60%;
 .social{
     padding-left: 10%;
     }
-@media screen and (max-width: 767px){                                                         
+@media screen and (max-width: 1000px){                                                         
 .icon{
  width: 35px;
  height: 5px;
  background-color: #242d52;
  margin: 6px 0;
+}
+#firstPart{
+padding-left: 10%;
 }
 #navBar {
  display: flex;
@@ -460,15 +464,19 @@ padding-left: 60%;
     }
  #icons{
     position: absolute;
-    right: 0;
+    right: 10;
   }
 #firstPart{
     width: 100%;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-bottom: 20%;
 }
+#firstPart .startButton{
+    margin-left: 35%;
+}
 #secPart img{
-padding-left: 10%;
+    width:250%;
+padding-left: 5%;
 }
 
 #Fcontainer{
@@ -492,8 +500,9 @@ padding-left: 10%;
 }
 
 #menuFooter{
-  padding-left: 35%;
-  gap:15%
+  padding-left: 20%;
+  gap:40%
+
 }
 #socialMedia{
 flex-direction: row;
@@ -514,14 +523,14 @@ padding-left: 40%;
 padding-top: 20px;
 }
 #firstPart4{
-    padding-left: 15%;
+    padding-left: 10%;
     padding-right: 20%;
     display: flex;
     flex-direction: column-reverse;
 
 }
 #secPart4 label{
-    padding-right: 20%;
+    padding-right: 10%;
 }
 #secPart3{
 margin-top: -40px;
